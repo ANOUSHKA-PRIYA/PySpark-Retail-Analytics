@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Spark output
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
